@@ -54,4 +54,12 @@
   .gpt3__features-container__feature {
     margin: 1rem 0;
   }
-}
+  @media screen and (min-width: 320px) {
+    .gpt3__features-container__feature {
+      flex-direction: column;
+    }
+    .gpt3__features-container__feature-title {
+      margin-bottom: 1rem;
+    }
+  }
+  
